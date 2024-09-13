@@ -12,6 +12,11 @@ export default function SignInPage(){
       <AppBar position="static" sx={{backgroundColor: "#2196f3"}}>
         <Toolbar>
           <Typography variant="h6" style={{flexGrow:1}}>FlashCardAI</Typography>
+          <Button color="inherit">
+                        <Link href="/" passHref>
+                         Home
+                        </Link>
+                    </Button>
             <Button color="inherit">
             <Link href="/sign-in" passHref>
                Sign in

@@ -11,6 +11,11 @@ export default function SignUpPage(){
                         FlashCardAI
                     </Typography>
                     <Button color="inherit">
+                        <Link href="/" > {' '}
+                         Home
+                        </Link>
+                    </Button>
+                    <Button color="inherit">
                         <Link href="/sign-in" passHref>
                         Sign in
                         </Link>

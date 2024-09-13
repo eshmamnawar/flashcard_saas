@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <Container maxWidth="100vw">
       <Head>
-        <title>QuickCardAI</title>
+        <title>FlashCardAI</title>
         <meta name="description" content="Create flashcard from your text"></meta>
       </Head>
       <AppBar position="static">
@@ -65,27 +65,27 @@ export default function Home() {
         Get Started
         </Button> 
       </Box>
-      <Box sx={{my: 6}}>
+      <Box sx={{my: 6, textAlign:'center',m:8}} bgcolor="#29b6f6" text="white">
         <Typography variant="h4" gutterBottom>
           Features
         </Typography>
         <Grid container spacing = {4}>
           <Grid item xs = {12} md={4}>
-            <Typography variant="h6" gutterBottom>Easy Text Input</Typography>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 'medium' }}>Easy Text Input</Typography>
             <Typography>
               {' '}
               Simply input your text and let our software do the rest. Creating flashcards has never been easier.
             </Typography>
           </Grid>
           <Grid item xs = {12} md={4}>
-            <Typography variant="h6" gutterBottom>Smart Flashcards</Typography>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 'medium' }}>Smart Flashcards</Typography>
             <Typography>
               {' '}
               Our AI intelligently breaks down your text into concise flashcards, perfect for studying.
             </Typography>
           </Grid>
           <Grid item xs = {12} md={4}>
-            <Typography variant="h6" gutterBottom>Accessible Anywhere</Typography>
+            <Typography variant="h6" gutterBottom sx={{ fontWeight: 'medium' }}>Accessible Anywhere</Typography>
             <Typography>
               {' '}
               Access your flashcards from any device, at any time, Study on the go with ease.
